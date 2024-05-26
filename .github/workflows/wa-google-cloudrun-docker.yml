@@ -34,7 +34,7 @@ jobs:
           context: ./
           push: true
           dockerfile: ./Dockerfile
-          tags: moisesgc/webacademy:latest
+          tags: sailewebacad/webacademy:latest
   deploy:
     needs: lint
     name: Setup Gcloud Account
